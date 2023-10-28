@@ -87,7 +87,7 @@ function App() {
       </h1>
 
       <div className="info-div">
-        <h2>My account balance</h2>
+        <h2>💸 My account balance 💸</h2>
         <div className="data-display">{displayBalance}</div>
         <a href={urlMyAccount} target="_blank" rel="noopener noreferrer">
           Link
@@ -96,7 +96,7 @@ function App() {
       </div>
 
       <div className="info-div">
-        <h2>My secret</h2>
+        <h2>💌 My secret love letter 💌</h2>
         <div className="data-display">{displaySecret}</div>
         <a href={urlSecret} target="_blank" rel="noopener noreferrer">
           Link
@@ -105,9 +105,9 @@ function App() {
       </div>
 
       <div className="info-div">
-        <h2>My Token</h2>
+        <h2>🪙 My Token 🪙</h2>
         <div className="data-display">{displayToken}</div>
-        <h3>Total Supply of PYC Token</h3>
+        <h3>💰 Total Supply of PYC Token 💰</h3>
         <div className="data-display">{displayTotalSupply}</div>
         <a
           href={urlToken}
@@ -122,8 +122,8 @@ function App() {
       </div>
 
       <div className="info-div">
-        <h2>My NFT</h2>
-        <div className="data-display">
+        <h2>⚡ My NFT ⚡</h2>
+        <div>
           {userReadNFT.isLoading || !NFTimage ? (
             "...loading NFT..."
           ) : (

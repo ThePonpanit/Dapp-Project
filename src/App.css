@@ -16,10 +16,12 @@ body {
 }
 
 h1 {
+  font: bold;
   margin-right: 10vh;
   text-align: center;
   color: #2c3e50;
   margin-top: 5%;
+  text-decoration: underline;
 }
 
 h2 {
@@ -41,7 +43,7 @@ h2 {
 }
 
 .data-display {
-  margin-top: 1rem;
+  margin-bottom: 1.5vh;
 }
 
 a {
@@ -72,6 +74,7 @@ img:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   scale: 1.1;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
